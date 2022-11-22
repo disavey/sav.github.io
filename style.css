@@ -1,0 +1,35 @@
+/*a:link{
+   color: pink; 
+}
+
+a:visited{
+    color: aqua;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: darkgoldenrod;
+}*/
+
+ul li:nth-child(n){
+    color:red;
+}
+
+ul li:nth-child(6n+1){
+    color: yellow;
+}
+
+ul li:nth-child(22){
+    color: yellow;
+}
+
+ul li:nth-child(4n+4){
+    color:blue;
+}
+
+ul li:nth-child(10n+10){
+    color: green;
+}
